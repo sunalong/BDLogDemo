@@ -11,7 +11,7 @@ import java.util.logging.Logger;
 import static java.net.URLEncoder.*;
 
 /**
- * 分析引擎sdk， java服务器端数据收集
+ * 分析引擎sdk， java服务器端数据收集，发送请求给服务器，服务器通过nginx指定的格式来存储这些访问日志
  */
 public class AnalyticsEngineSDK {
     private static String platformName = "java_server";
